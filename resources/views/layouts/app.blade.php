@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="{{ asset('css/flaticon.css')}}">
     <link rel="stylesheet" href="{{ asset('css/icomoon.css')}}">
     <link rel="stylesheet" href="{{ asset('css/style.css')}}">
+    <link rel="alternate icon" class="js-site-favicon" type="image/png" href="images/flaco-logo.png">
   </head>
   <body>
 
@@ -80,22 +81,22 @@
         <div class="ftco-footer-widget mb-4">
           <h2 class="ftco-heading-2">Recent Blog</h2>
           <div class="block-21 mb-4 d-flex">
-            <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+            <a class="blog-img mr-4" style="background-image: url(images/gallery17.jpg);"></a>
             <div class="text">
-              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+              <h3 class="heading"><a href="#">Providing Counselling Services to the community</a></h3>
               <div class="meta">
-                <div><a href="#"><span class="icon-calendar"></span> July 12, 2018</a></div>
+                <div><a href="#"><span class="icon-calendar"></span> July 12, 2023</a></div>
                 <div><a href="#"><span class="icon-person"></span> Admin</a></div>
                 <div><a href="#"><span class="icon-chat"></span> 19</a></div>
               </div>
             </div>
           </div>
           <div class="block-21 mb-4 d-flex">
-            <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
+            <a class="blog-img mr-4" style="background-image: url(images/gallery20.jpg);"></a>
             <div class="text">
-              <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+              <h3 class="heading"><a href="#">Providing Educational Services to our community</a></h3>
               <div class="meta">
-                <div><a href="#"><span class="icon-calendar"></span> July 12, 2018</a></div>
+                <div><a href="#"><span class="icon-calendar"></span> Dec, 2023</a></div>
                 <div><a href="#"><span class="icon-person"></span> Admin</a></div>
                 <div><a href="#"><span class="icon-chat"></span> 19</a></div>
               </div>
