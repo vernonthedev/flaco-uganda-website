@@ -31,21 +31,21 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Welfare</a>
+
+      <img class="navbar-brand" src="{{ asset('images/flaco-logo.png')}}" width="10%"/>
+      <a class="navbar-brand" href="index.html">Flames of Compassion</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="oi oi-menu"></span> Menu
       </button>
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-          <li class="nav-item"><a href="causes.html" class="nav-link">Causes</a></li>
-          <li class="nav-item"><a href="donate.html" class="nav-link">Donate</a></li>
-          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
-          <li class="nav-item"><a href="event.html" class="nav-link">Events</a></li>
-          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          <li class="nav-item active"><a href="{{ route('home')}}" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="{{ route('about')}}" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="{{ route('causes')}}" class="nav-link">Causes</a></li>
+          <li class="nav-item"><a href="{{ route('blog')}}" class="nav-link">Blog</a></li>
+          <li class="nav-item"><a href="{{ route('gallery')}}" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="{{ route('contact')}}" class="nav-link">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -68,7 +68,7 @@
       <div class="col-md-3">
         <div class="ftco-footer-widget mb-4">
           <h2 class="ftco-heading-2">About Us</h2>
-          <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+          <p>We exist to provide a safe and productive environment for children to learn and grow while empowering women.</p>
           <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
             <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
             <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -107,12 +107,11 @@
          <div class="ftco-footer-widget mb-4 ml-md-4">
           <h2 class="ftco-heading-2">Site Links</h2>
           <ul class="list-unstyled">
-            <li><a href="#" class="py-2 d-block">Home</a></li>
-            <li><a href="#" class="py-2 d-block">About</a></li>
-            <li><a href="#" class="py-2 d-block">Donate</a></li>
-            <li><a href="#" class="py-2 d-block">Causes</a></li>
-            <li><a href="#" class="py-2 d-block">Event</a></li>
-            <li><a href="#" class="py-2 d-block">Blog</a></li>
+            <li><a href="{{ route('home')}}" class="py-2 d-block">Home</a></li>
+            <li><a href="{{ route('about')}}" class="py-2 d-block">About</a></li>
+            <li><a href="{{ route('causes')}}" class="py-2 d-block">Causes</a></li>
+            <li><a href="{{ route('blog')}}" class="py-2 d-block">Blog</a></li>
+            <li><a href="{{ route('contact')}}" class="py-2 d-block">Contact Us</a></li>
           </ul>
         </div>
       </div>
@@ -121,9 +120,9 @@
             <h2 class="ftco-heading-2">Have a Questions?</h2>
             <div class="block-23 mb-3">
               <ul>
-                <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
-                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
-                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                <li><span class="icon icon-map-marker"></span><span class="text">Kampala, Uganda, P.O.BOX 21578, Wakiso District, Uganda East Africa</span></li>
+                <li><a href="#"><span class="icon icon-phone"></span><span class="text">+256 039 3217945</span></a></li>
+                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@theflaco.org</span></a></li>
               </ul>
             </div>
         </div>
@@ -132,9 +131,9 @@
     <div class="row">
       <div class="col-md-12 text-center">
 
-        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        <p>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Flames Of Compassion Uganda
+</p>
       </div>
     </div>
   </div>
