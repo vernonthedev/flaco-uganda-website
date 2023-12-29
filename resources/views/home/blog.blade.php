@@ -20,21 +20,24 @@
       <div class="row d-flex">
 
 {{--  start of blog  --}}
-        <div class="col-md-4 d-flex ftco-animate">
-            <div class="blog-entry align-self-stretch">
-            <a href="blog-single.html" class="block-20" style="background-image: url('images/gallery23.jpg');">
-            </a>
+@foreach ($blogs as $blog)
+    <div class="col-md-4 d-flex ftco-animate">
+        <div class="blog-entry align-self-stretch">
+            <a href="{{ url('blog/'.$blog->id) }}" class="block-20" style="background-image: url('{{ asset('uploads/' . $blog->image) }}');"></a>
+
             <div class="text p-4 d-block">
                 <div class="meta mb-3">
-                <div><a href="#">Sept 10, 2023</a></div>
-                <div><a href="#">Admin</a></div>
-                <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
-              </div>
-              <h3 class="heading mt-3"><a href="#">Mission to help the Elderly</a></h3>
-              <p>We still need to always support the elderly on a daily.</p>
+                    <div><a href="#">{{ $blog->created_at->format('M d, Y') }}</a></div>
+                    <div><a href="#">{{ $blog->posted_by }}</a></div>
+                    <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-3"><a href="{{ url('blog/'.$blog->id) }}">{{ $blog->blog_title }}</a></h3>
+                <p>{{ $blog->short_description }}</p>
             </div>
-          </div>
         </div>
+    </div>
+@endforeach
+
 {{--  End of blog  --}}
 
       </div>
